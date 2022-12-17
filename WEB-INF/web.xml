@@ -1,0 +1,74 @@
+<web-app>
+    <display-name>
+        CNT 4714 Fall 2022 Servlet/JSP Home Page
+    </display-name>
+
+    <description>
+      This is the Web application for Project 4
+   </description>
+<!-- The Root page and servlet -->
+   <servlet>
+         <servlet-name>alpha</servlet-name>
+         <description> RootServlet</description>
+         <servlet-class> RootServlet  </servlet-class>
+      </servlet>
+
+               <servlet-mapping>
+                  <servlet-name>alpha</servlet-name>
+                  <url-pattern>/root1</url-pattern>
+               </servlet-mapping>
+   
+   <servlet>
+         <servlet-name>alphaOne</servlet-name>
+         <description> RootServlet</description>
+         <servlet-class> RootServlet  </servlet-class>
+      </servlet>
+
+               <servlet-mapping>
+                  <servlet-name>alphaOne</servlet-name>
+                  <url-pattern>/Project4/root1</url-pattern>
+               </servlet-mapping>
+<!-- The client page and servlet -->
+   <servlet>
+         <servlet-name>bravo</servlet-name>
+         <description> ClientServlet</description>
+         <servlet-class> ClientServlet  </servlet-class>
+      </servlet>
+
+               <servlet-mapping>
+                  <servlet-name>bravo</servlet-name>
+                  <url-pattern>/client1</url-pattern>
+               </servlet-mapping>
+   
+   <servlet>
+         <servlet-name>bravoOne</servlet-name>
+         <description> ClientServlet</description>
+         <servlet-class> ClientServlet  </servlet-class>
+      </servlet>
+
+               <servlet-mapping>
+                  <servlet-name>bravoOne</servlet-name>
+                  <url-pattern>/Project4/client1</url-pattern>
+               </servlet-mapping>
+   <servlet>
+         <servlet-name>charlie</servlet-name>
+         <description> DataEntryServlet</description>
+         <servlet-class> DataEntryServlet  </servlet-class>
+      </servlet>
+
+               <servlet-mapping>
+                  <servlet-name>charlie</servlet-name>
+                  <url-pattern>/dataEntry1</url-pattern>
+               </servlet-mapping>
+   
+   <servlet>
+         <servlet-name>charlieOne</servlet-name>
+         <description> DataEntryServlet</description>
+         <servlet-class> DataEntryServlet  </servlet-class>
+      </servlet>
+
+               <servlet-mapping>
+                  <servlet-name>charlieOne</servlet-name>
+                  <url-pattern>/Project4/dataEntry1</url-pattern>
+               </servlet-mapping>
+</web-app>
